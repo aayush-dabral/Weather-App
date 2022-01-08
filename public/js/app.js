@@ -1,16 +1,3 @@
-console.log('Client-side javascript has been loaded')
-
-// fetch('http://localhost:3000/weather?address=!').then((response) => {
-//     response.json().then((data)=>{
-//         if(data.error) {
-//             console.log(data.error)
-//         } else {
-//             console.log(data.Temperature)
-//             console.log(data.Precipitation)
-//         }
-//     })
-// })
-
 const weatherForm = document.querySelector('form') 
 const search = document.querySelector('input')
 const messageZero = document.querySelector('#message-0')
