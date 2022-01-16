@@ -1,13 +1,15 @@
 const path = require('path')
 
+//adding express and handlebars modules
 const express = require('express')
 const hbs = require('hbs')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000  //setting the port up fro what will be provided by heroku
 
 const request = require('request')
 
+//importing geocode and forecast files
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 const { response } = require('express')
