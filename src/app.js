@@ -26,7 +26,7 @@ app.use(express.static(publicPath))
 hbs.registerPartials(partialsPath)
 
 //Set up static directory to serve
-app.set('views', viewsPath) //This is an addition which is not explained yet
+app.set('views', viewsPath) //This is an addition which is not explained yet....
 
 app.get('', (req,res)=>{
     res.render('index.hbs',{
